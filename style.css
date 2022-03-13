@@ -1,0 +1,76 @@
+
+*{
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 130px;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.tuttosito {
+  padding: 100px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 256px;
+}
+
+h1{
+  font-weight: bold;
+  color: #00dc01;
+  text-align: center;
+}
+
+.pulsanti{
+  text-align: center;
+  font-weight: bold;
+  background-color: #00dc01;
+  padding: 10px;
+  border-radius: 4px;
+
+}
+
+h2, span{
+  color: white;
+  display: inline-block;
+}
+
+.stato{
+  margin-top: 40px;
+}
+
+.percentuale1{
+  border-radius: 4px;
+  float: left;
+  width: 400px;
+  height: 25px;
+  background-color: orange;
+}
+
+
+.percentuale2{
+  border-radius: 4px;
+  float: left;
+  width: 600px;
+  height: 25px;
+  background-color: green;
+}
+
+
+.percentuale3{
+  border-radius: 4px;
+  float: left;
+  width: 200px;
+  height: 25px;
+  background-color: red;
+}
